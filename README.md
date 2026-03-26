@@ -1,2 +1,2 @@
 # MyFirstRpository
-This is my first rpository.
+This is my first rpository with IntelliJ.
