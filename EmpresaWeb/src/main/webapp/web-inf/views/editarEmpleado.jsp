@@ -15,7 +15,8 @@
 <main>
     <h2>Modificar empleado</h2>
 
-    <form action="${pageContext.request.contextPath}/editar" method="post">
+    <form action="${pageContext.request.contextPath}/controlador" method="post">
+        <input type="hidden" name="accion" value="guardar">
         <input type="hidden" name="dni" value="<c:out value='${empleado.dni}'/>">
 
         <label>DNI (no modificable):

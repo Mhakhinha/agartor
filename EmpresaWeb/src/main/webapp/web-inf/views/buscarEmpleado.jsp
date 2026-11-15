@@ -14,7 +14,9 @@
     <h2>Buscar empleados</h2>
     <p>Rellena uno o varios campos. Los que dejes vacíos se ignoran.</p>
 
-    <form action="${pageContext.request.contextPath}/buscar" method="get">
+    <form action="${pageContext.request.contextPath}/controlador" method="get">
+        <input type="hidden" name="accion" value="buscar">
+
         <label>Nombre:
             <input type="text" name="nombre">
         </label>

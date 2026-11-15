@@ -13,7 +13,9 @@
 <main>
     <h2>Consultar el salario de un empleado</h2>
 
-    <form action="${pageContext.request.contextPath}/salario" method="get">
+    <form action="${pageContext.request.contextPath}/controlador" method="get">
+        <input type="hidden" name="accion" value="salario">
+
         <label>DNI del empleado:
             <input type="text" name="dni" maxlength="9" placeholder="Ej. 12345678A" required>
         </label>

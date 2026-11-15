@@ -43,7 +43,7 @@
     </dependencies>
 
     <build>
-       <finalName>empresa</finalName> <!-- contexto de la aplicación-->
+       <finalName>empresa</finalName> <!--contexto de la aplicación-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

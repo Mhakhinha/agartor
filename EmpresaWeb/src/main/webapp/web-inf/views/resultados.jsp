@@ -32,7 +32,7 @@
                 <td>${e.categoria}</td>
                 <td>${e.anyos}</td>
                 <td>
-                    <a class="boton" href="${pageContext.request.contextPath}/editar?dni=${e.dni}">Editar</a>
+                    <a class="boton" href="${pageContext.request.contextPath}/controlador?accion=editar&dni=${e.dni}">Editar</a>
                 </td>
             </tr>
         </c:forEach>
